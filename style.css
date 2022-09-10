@@ -1,0 +1,30 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.2em;
+}
+
+button {
+    font-size: 1.5em;
+}
+
+table, td, th {
+    border: 1px solid gray;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+th {
+    background-color: greenyellow;
+}
+
+tr:nth-child(even) {
+    background-color: gainsboro;
+}
+
+.redtext {
+    color: red;
+}
+
+.redbg {
+    background-color: red;
+}
